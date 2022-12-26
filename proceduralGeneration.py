@@ -9,4 +9,4 @@ while generating == True:
         ttl.setheading(heading)
     except:
         print("") 
-    ttl.forward(3)
+    ttl.forward(random.randint(3,5))
